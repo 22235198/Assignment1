@@ -65,23 +65,19 @@ int generateArray(char* filename, int** array, int* size) {
 	/*keeping track of the array size outside of the function.*/
 	*size = arraySize;
 	
+	fclose(fpointer);
+	
 	return 0;
 }
 
-void printArray(int** array, int size) {
+void printArray(int* array, int size) {
 
 	int i;
 	
 	for(i = 0; i < size; i++) {
-		printf("Array[%d]: %d\n", i, (*array)[i]);
+		printf("Array[%d]: %d\n", i, array[i]);
 	}
 
 }
-
-
-
-
-
-
 
 
