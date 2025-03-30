@@ -1,0 +1,18 @@
+Program purpose:
+Takes a textfile called ToSort containing only whitespaces and integers, generates it into an array, 
+e.g. "3 2 1" becomes {3, 2, 1}. We then sort the array in ascending order, so {3, 2, 1}
+become {1, 2, 3}. The program prints the modified array into the terminal, as well as how
+many modifications or "swaps" were required to "organize" the array.
+
+How to run:
+1. Open the command line terminal.
+2. Enter the project directory, e.g. "cd /home/downloads/myproject".
+3. Enter "make" into the terminal to compile the program.
+4. To execute the program, enter "./sss ToSort" into the terminal.
+
+Special Cases:
+If the file ToSort contains more than 200 integers, that is to say there are more than
+200 integers seperated by whitespaces within the text file, the program will terminate
+without generating and sorting an array. The same will occur if ToSort contains any
+characters that are not integers or whitespaces.
+
